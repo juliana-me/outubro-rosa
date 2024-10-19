@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif; /* Fonte aplicada a todo o documento */
+}
+
+header {
+    width: 1216px;
+    height: 118px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF69B4;
+    color: #E4EEF1;
+    font-size: 28px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-align: left;
+}
+
+nav {
+    width: 40%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul a {
+    color: #E4EEF1;
+    font-size: 28px;
+}
+
+.inicio {
+    width: 1216px;
+    height: 377px;
+    background-color: #FFD9EC;
+    font-size: 25px;
+}
+
+.inicio img {
+    width: 365px; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px; /* Espaço em torno da imagem */
+}
+
+.meio {
+    width: 1216px;
+    height: 262px;
+    background-color: #FF69B4;
+    color: #E4EEF1;
+    font-size: 25px;
+}
+
+.meio img {
+    width: 421px;
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.fim {
+    width: 1216px;
+    height: 426px;
+    background-color: #FFD9EC;
+    font-size: 25px;
+    display: flex; /* Torna o container flexível */
+    justify-content: space-around; /* Distribui os elementos igualmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.fim img {
+    width: 250px;
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.participantes {
+    width: 1216px; /* Largura do footer */
+    height: 143px; /* Altura do footer */
+    background-color: #FF69B4; /* Cor de fundo do footer */
+    color: #E4EEF1; /* Cor do texto */
+    display: flex; /* Torna o container flexível */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.icones {
+    display: flex; /* Alinha os ícones em linha */
+}
+
+.icones img {
+    margin-right: 10px; /* Adiciona espaçamento entre os ícones */
+}
+
+.texto-participantes {
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 0 20px; /* Adiciona margem horizontal se necessário */
+}
+
+.icone-direita {
+    margin-left: auto; /* Move o último ícone para a direita */
+}
